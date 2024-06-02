@@ -112,7 +112,6 @@ form.addEventListener("submit", async (event) => {
             inp.style.textWrap="nowrap";
             inp.contentEditable="true";
             inp.spellcheck="false";
-            inp.innerText="Run a bookmarklet..";
             inp.style.color="black";
             inp.style.top="2.5%";
             inp.style.fontFamily="font-family: Arial,Helvetica Neue,Helvetica,sans-serif !important;";
