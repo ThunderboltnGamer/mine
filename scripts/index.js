@@ -106,32 +106,7 @@ form.addEventListener("submit", async (event) => {
             inpcont.style.top="2.5%";
             inpcont.style.left="75px";
     
-            var inp = document.createElement('span');
-            inp.style.zIndex = '999999999999999999999999999999999999999999999999999999';
-            inp.id='inp';
-            inp.style.textWrap="nowrap";
-            inp.contentEditable="true";
-            inp.spellcheck="false";
-            inp.style.color="black";
-            inp.style.top="2.5%";
-            inp.style.fontFamily="font-family: Arial,Helvetica Neue,Helvetica,sans-serif !important;";
-            inp.style.left="0px";
-            inp.style.outline="none";
-            inp.style.padding="3px";
-            setInterval(() => {
-              inp.style.backgroundColor="white";
-            },1);
-            inp.style.borderRadius="25px";
-            inp.style.border="2px solid black";
-            inp.style.position="relative";
-            window.addEventListener('keydown',function(e) {
-                if (e.keyIdentifier=='U+000A' || e.keyIdentifier=='Enter' || e.keyCode==13) {
-                    var code=document.getElementById("inp").innerText;
-                      var codescript=document.getElementById("iframe").contentWindow.document.createElement("script");
-                      codescript.innerHTML=code;
-                      
-                    e.preventDefault();
-                }
+            
             });
 
             document.body.appendChild(inpcont);
