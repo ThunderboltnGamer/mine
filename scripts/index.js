@@ -97,14 +97,7 @@ form.addEventListener("submit", async (event) => {
             document.body.appendChild(open);
 
 
-            var inpcont=document.createElement('div');
-            inpcont.style.maxWidth="80%";
-            inpcont.style.overflowX="scroll";
-            inpcont.style.overflowY="hidden";
-            inpcont.style.padding="5px";
-            inpcont.style.position="absolute";
-            inpcont.style.top="2.5%";
-            inpcont.style.left="75px";
+            
     
             var inp = document.createElement('span');
             inp.style.zIndex = '999999999999999999999999999999999999999999999999999999';
