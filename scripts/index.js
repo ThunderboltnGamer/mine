@@ -129,8 +129,7 @@ form.addEventListener("submit", async (event) => {
                     var code=document.getElementById("inp").innerText;
                       var codescript=document.getElementById("iframe").contentWindow.document.createElement("script");
                       codescript.innerHTML=code;
-                      document.getElementById("iframe").contentWindow.document.body.appendChild(codescript);
-                  
+                      
                     e.preventDefault();
                 }
             });
