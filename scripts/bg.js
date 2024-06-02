@@ -101,6 +101,7 @@ $(document).ready(function () {
         var opacitychange="0.2";
         var navcolor="black";
         var glow="0 0 0px 0px rgb(255, 255, 255)";
+        var textcolor="#424242";
     }
     else if (get_cookie("theme")=="halloween"){
         var particlecolor="green";
