@@ -94,6 +94,14 @@ $(document).ready(function () {
         var navcolor="#ebad05";
         var glow="0 0 0px 0px rgb(255, 255, 255)";
     }
+    else if (get_cookie("theme")=="custom1"){
+        var particlecolor="#424242";
+        var backgroundcolor="black";
+        var hovercolor="#424242";
+        var opacitychange="0.2";
+        var navcolor="black";
+        var glow="0 0 0px 0px rgb(255, 255, 255)";
+    }
     else if (get_cookie("theme")=="halloween"){
         var particlecolor="green";
         var backgroundcolor="#f29d13";
