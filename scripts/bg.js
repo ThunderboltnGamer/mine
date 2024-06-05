@@ -95,13 +95,13 @@ $(document).ready(function () {
         var glow="0 0 0px 0px rgb(255, 255, 255)";
     }
     else if (get_cookie("theme")=="custom1"){
-        var particlecolor="black";
-        var backgroundcolor="#8a0000";
-        var hovercolor="#2b2b2b";
+        var particlecolor="white";
+        var backgroundcolor="black";
+        var hovercolor="dark grey";
         var opacitychange="0.2";
-        var navcolor="#750000";
-        var glow="0 0 0px 0px rgb(255, 255, 255)";
-        var textcolor="#000000";
+        var navcolor="dark grey";
+        var glow="0 0 5px 5px rgb(0, 0, 0);
+        var textcolor="black";
     }
     else if (get_cookie("theme")=="halloween"){
         var particlecolor="green";
