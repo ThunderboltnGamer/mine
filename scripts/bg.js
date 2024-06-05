@@ -95,13 +95,13 @@ $(document).ready(function () {
         var glow="0 0 0px 0px rgb(255, 255, 255)";
     }
     else if (get_cookie("theme")=="custom1"){
-        var particlecolor="white";
+        var particlecolor="red";
         var backgroundcolor="black";
         var hovercolor="#444";
         var opacitychange="0.2";
-        var navcolor="white";
+        var navcolor="black";
         var glow="0 0 0px 0px rgb(255, 255, 255)";
-        var textcolor="black";
+        var textcolor="red";
     }
     else if (get_cookie("theme")=="halloween"){
         var particlecolor="green";
