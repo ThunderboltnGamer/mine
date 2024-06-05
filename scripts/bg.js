@@ -97,10 +97,10 @@ $(document).ready(function () {
     else if (get_cookie("theme")=="custom1"){
         var particlecolor="white";
         var backgroundcolor="black";
-        var hovercolor="dark grey";
+        var hovercolor="#444";
         var opacitychange="0.2";
-        var navcolor="dark grey";
-        var glow="0 0 5px 5px rgb(0, 0, 0);
+        var navcolor="white";
+        var glow="0 0 5px 5px rgb(255, 255, 255);
         var textcolor="black";
     }
     else if (get_cookie("theme")=="halloween"){
