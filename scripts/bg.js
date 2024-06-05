@@ -100,7 +100,7 @@ $(document).ready(function () {
         var hovercolor="#444";
         var opacitychange="0.2";
         var navcolor="white";
-        var glow="0 0 0px 0px rgb(255, 255, 255);
+        var glow="0 0 0px 0px rgb(255, 255, 255)";
         var textcolor="black";
     }
     else if (get_cookie("theme")=="halloween"){
